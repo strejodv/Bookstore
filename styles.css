@@ -4,6 +4,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Comfortaa', Arial, sans-serif;
+    background-color: fff7ee;
 }
 
 header {
@@ -18,9 +19,11 @@ header {
     align-items: center;
     justify-content: space-between;
     border-radius: 50px;
-    background-color: #5c2e5c;
+    background-color: #2e4057;
     padding-left: 30px;
     padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 /* THE LOGO AREA */
@@ -114,7 +117,7 @@ header {
 
 .cta-button {
     padding: 10px 20px;
-    background-color: #3e5641;
+    background-color: #ee583f;
     color: white;
     font-size: 1rem;
     border: none;
@@ -127,7 +130,7 @@ header {
 
 .cta-button:hover {
     background-color: rgb(255, 255, 255);
-    color: #3e5641;
+    color: #ee583f;
 }
 
 .hero-image {
@@ -186,6 +189,64 @@ header {
     color: #333;
 }
 
+/* BEST SELLER SECTION */
+.best-sellers-section {
+    padding: 50px 30px;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.best-sellers-header {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 30px;
+    color: rgb(46, 46, 46);
+}
+
+.best-sellers-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.best-sellers-item {
+    width: 200px;
+    text-align: center;
+}
+
+.best-sellers-image {
+    width: 100%;
+    height: 300px; /* Matches gallery section */
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.book-name {
+    margin-top: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #333;
+}
+
+/* BYOD Section */
+.byod-section {
+    padding: 150px 120px;
+    background-color: #f4f4f4; /* Matches the Gallery Section */
+    text-align: center;
+}
+
+.byod-header {
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: rgb(46, 46, 46);
+    font-family: 'Calibri', sans-serif;
+}
+
+.promo-secondp {
+    font-size: 0.8rem;
+}
+
 
 footer {
     bottom: 0;
@@ -193,7 +254,7 @@ footer {
     width: 100%;
     text-align: center;
     padding: 20px 0;
-    background-color: #5c2e5c; /* Same as nav background */
+    background-color: #2e4057; /* Same as nav background */
     color: white;
     font-size: 1rem;
     border-top: 1px solid rgb(227, 227, 227); /* Adds a grey top border */
