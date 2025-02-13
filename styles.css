@@ -4,14 +4,14 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Comfortaa', Arial, sans-serif;
-    background-color: fff7ee;
 }
 
+/* HEADER */
 header {
     background-color: #ffffff;
     color: white;
     padding: 15px 30px;
-    border-bottom: 1.5px solid rgb(227, 227, 227); /* Adds a grey bottom border */
+    border-bottom: 1.5px solid rgb(227, 227, 227);
 }
 
 .nav-container {
@@ -20,10 +20,7 @@ header {
     justify-content: space-between;
     border-radius: 50px;
     background-color: #2e4057;
-    padding-left: 30px;
-    padding-right: 30px;
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding: 10px 30px;
 }
 
 /* THE LOGO AREA */
@@ -40,6 +37,7 @@ header {
 
 .website-title {
     font-size: 1.2rem;
+    color: white;
 }
 
 /* NAVIGATION LINKS */
@@ -87,21 +85,20 @@ header {
     color: inherit;
 }
 
-
 /* HERO SECTION */
 .hero-section {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 50px 30px;
-    gap: 30px; 
-    max-width: 1200px; 
-    margin: 50px auto; 
-    color:#393939
+    gap: 30px;
+    max-width: 1200px;
+    margin: 50px auto;
+    color: #393939;
 }
 
 .hero-text {
-    flex: 1; 
+    flex: 1;
 }
 
 .hero-text h2 {
@@ -129,7 +126,7 @@ header {
 }
 
 .cta-button:hover {
-    background-color: rgb(255, 255, 255);
+    background-color: white;
     color: #ee583f;
 }
 
@@ -143,7 +140,7 @@ header {
     border-radius: 10px;
 }
 
-/* Gallery Section */
+/* GALLERY SECTION */
 .gallery-section {
     padding: 50px 30px;
     background-color: #f4f4f4;
@@ -160,25 +157,25 @@ header {
 .gallery-container {
     display: flex;
     justify-content: center;
-    gap: 30px;
+    gap: 150px;
     flex-wrap: wrap;
 }
 
 .gallery-item {
-    width: 200px; /* Fixed width for consistency */
-    height: 300px; /* Fixed height for consistency */
+    width: 200px;
+    height: 300px;
     text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    overflow: hidden; /* Ensures no overflow happens if the image is too big */
+    overflow: hidden;
 }
 
 .gallery-image {
     width: 100%;
-    height: 100%; /* Ensures the image fills the gallery-item container */
-    object-fit: cover; /* Maintains the aspect ratio while covering the area */
+    height: 100%;
+    object-fit: cover;
     border-radius: 8px;
 }
 
@@ -206,7 +203,7 @@ header {
 .best-sellers-container {
     display: flex;
     justify-content: center;
-    gap: 30px;
+    gap: 150px;
     flex-wrap: wrap;
 }
 
@@ -217,7 +214,7 @@ header {
 
 .best-sellers-image {
     width: 100%;
-    height: 300px; /* Matches gallery section */
+    height: 300px;
     object-fit: cover;
     border-radius: 8px;
 }
@@ -229,10 +226,10 @@ header {
     color: #333;
 }
 
-/* BYOD Section */
+/* BYOD SECTION */
 .byod-section {
     padding: 150px 120px;
-    background-color: #f4f4f4; /* Matches the Gallery Section */
+    background-color: #f4f4f4;
     text-align: center;
 }
 
@@ -247,11 +244,10 @@ header {
     font-size: 0.8rem;
 }
 
-/* Promo Section */
+/* PROMO SECTION */
 .promo-section {
     padding: 50px 30px;
     text-align: center;
-    
 }
 
 .promo-container {
@@ -263,14 +259,14 @@ header {
 
 .promo-item {
     text-align: center;
-    width: 300px;
+    width: 500px;
 }
 
 .promo-image {
-        width: 100%; /* Ensures both images take up the full width of their container */
-        height: 250px; /* Set a fixed height for consistency */
-        object-fit: cover; /* Ensures the image maintains aspect ratio while covering the container */
-        border-radius: 10px;
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
 }
 
 .promo-header {
@@ -281,20 +277,161 @@ header {
     font-family: 'Calibri', sans-serif;
 }
 
-
-
+/* FOOTER */
 footer {
-    bottom: 0;
-    left: 50%;
-    width: 100%;
-    text-align: center;
-    padding: 20px 0;
-    background-color: #2e4057; /* Same as nav background */
+    background-color: #2e4057;
     color: white;
-    font-size: 1rem;
-    border-top: 1px solid rgb(227, 227, 227); /* Adds a grey top border */
+    padding: 40px 20px;
+    text-align: center;
 }
 
-footer p {
-    margin: 0;
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto;
+    gap: 30px;
 }
+
+.footer-section {
+    flex: 1;
+    min-width: 250px;
+}
+
+.footer-section h3 {
+    font-size: 1.5rem;
+    margin-bottom: 15px;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 10px;
+}
+
+.footer-section ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-section ul li a:hover {
+    text-decoration: underline;
+}
+
+/* NEWSLETTER FORM */
+.newsletter-form input {
+    width: 70%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.newsletter-form button {
+    background-color: #ee583f;
+    color: white;
+    margin-top: 5px;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.newsletter-form button:hover {
+    background-color: white;
+    color: #ee583f;
+}
+
+/* SOCIAL MEDIA ICONS */
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.social-icons a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.social-icons img {
+    width: 24px;
+    height: 24px;
+    object-fit: contain;
+    transition: transform 0.2s ease-in-out;
+}
+
+.social-icons img:hover {
+    transform: scale(1.1);
+}
+
+/* GALLERY SECTION */
+.gallery {
+    padding: 50px 30px;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+.gallery-row {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 40px;
+}
+
+.product {
+    width: 250px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    padding: 20px;
+    transition: transform 0.3s ease;
+}
+
+.product:hover {
+    transform: translateY(-5px);
+}
+
+.product-image {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.product-title {
+    margin-top: 15px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.product-price {
+    margin-top: 10px;
+    font-size: 1.1rem;
+    color: #2e4057;
+}
+
+/* For responsive design */
+@media (max-width: 768px) {
+    .gallery-row {
+        flex-direction: column;
+        gap: 20px;
+    }
+}
+
