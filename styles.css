@@ -435,3 +435,151 @@ footer {
     }
 }
 
+/* ABOUT US PAGE STYLES */
+
+/* BUSINESS HOURS SECTION */
+.business-hours-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 30px;
+    gap: 30px;
+    max-width: 1200px;
+    margin: 50px auto;
+}
+
+.business-hours .hero-image {
+    width: 100%; /* Increase the width */
+    height: auto; /* Keep the aspect ratio */
+    border-radius: 10px;
+}
+
+.business-hours h3 {
+    font-size: 2rem;
+    color: #2e2e4e;
+    margin-bottom: 20px;
+}
+
+.business-hours ul {
+    list-style: none;
+    padding: 0;
+    font-size: 1.2rem;
+    color: #393939;
+}
+
+.business-hours ul li {
+    margin-bottom: 10px;
+}
+
+/* FEEDBACK FORM SECTION */
+.feedback-section {
+    padding: 50px 30px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.feedback-section h3 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+    color: #333;
+}
+
+.feedback-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.feedback-form label {
+    font-size: 1.1rem;
+    color: #333;
+}
+
+.feedback-form input, 
+.feedback-form textarea {
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.feedback-form button {
+    padding: 10px 20px;
+    background-color: #ee583f;
+    color: white;
+    font-size: 1.1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.feedback-form button:hover {
+    background-color: white;
+    color: #ee583f;
+}
+
+/* TESTIMONIALS SECTION STYLES */
+.testimonials-section {
+    padding: 50px 30px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.testimonial-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.testimonial {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: calc(33.333% - 20px); /* Three testimonials in a row */
+    text-align: center;
+    transition: transform 0.3s ease-in-out;
+}
+
+.testimonial:hover {
+    transform: translateY(-5px);
+}
+
+.testimonial p {
+    font-size: 1.1rem;
+    color: #555;
+    margin-bottom: 15px;
+}
+
+.testimonial h4 {
+    font-size: 1.3rem;
+    color: #2e4057;
+    margin-bottom: 5px;
+}
+
+.testimonial p:last-child {
+    font-size: 1rem;
+    color: #777;
+    font-style: italic;
+}
+
+/* RESPONSIVE DESIGN */
+@media (max-width: 768px) {
+    .testimonial {
+        width: calc(50% - 20px); /* Two testimonials in a row */
+    }
+}
+
+@media (max-width: 480px) {
+    .testimonial {
+        width: 100%; /* One testimonial per row on small screens */
+    }
+}
+
+
