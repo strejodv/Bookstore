@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bookstore | About Us</title>
+    <title>Cover Letter</title>
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Comfortaa&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Carlito&display=swap" rel="stylesheet">
@@ -14,7 +14,7 @@
     <header>
         <div class="nav-container">
 
-            <!-- Navigation Menu -->
+            <!-- The Navigation Menu -->
             <nav>
                 <ul class="nav-links">
                     <li><a href="index.html">Resume</a></li>
@@ -26,82 +26,57 @@
     </header>
 
     <main>
-        <!-- Hero Section -->
+        <!-- The Hero Section -->
         <section class="hero-section">
             <div class="hero-text">
-                <h2>About Us</h2>
-                <p> At Book Haven Bookstore, we’re passionate about books and creating a space where readers can explore, discover, and enjoy a wide range of titles. 
-                    We're excited to bring our love for reading online and make it easier for everyone to find their next great read.</p>
+                <h2>My Cover Letter<hr></h2>
+                <p> <strong>Dear Hiring Manager</strong>,</p>
+                <p> 
+                    My name is Stefano Trejo, and I’m a software engineering student graduating in December 2025. 
+                    Over the last couple of years, I’ve been building up my skills in full-stack development, 
+                    and I’m excited to start my journey in the tech industry.
+                </p>
+
+                <p>
+                    I’ve worked on several projects that helped me grow both technically and creatively. 
+                    One of my favorite experiences was building a task manager app using <mark><span class="highlighted">React, Node.js, and MySQL</span></mark>. 
+                    It pushed me to think about real-world issues like user authentication, backend logic, and responsive UI. 
+                    I’ve also had the chance to work on UX/UI design during an internship, where I learned how important it is to design with users in mind not just functionality.
+                </p>
+
+                <p>
+                    While I’m still early in my career, I’m <mark>eager</mark> to keep learning and improving. 
+                    I enjoy solving problems, working with others, and seeing a project come together from idea to code. 
+                    I'm currently open to opportunities where I can contribute, grow, and be part of a team that values learning and collaboration.
+                </p>
+
+                <p>
+                    Thank you for taking the time to check out my work and get to know me a little better. Feel free to explore my portfolio and reach out if you'd like to connect.
+                </p>
             </div>
         </section>
-
-        <!-- Business Hours Section -->
-        <section class="business-hours-section">
-            <div class="hero-image">
-                <img src="images/book7.png" alt="Bookshelf with books" class="hero-img">
-            </div>
-            <div class="business-hours">
-                <h3>Business Hours</h3>
-                <ul>
-                    <li>Monday - Friday: 9:00 AM - 6:00 PM</li>
-                    <li>Saturday: 10:00 AM - 4:00 PM</li>
-                    <li>Sunday: Closed</li>
-                </ul>
-            </div>
-        </section>
-
-            <!-- Feedback / Custom Order Form Section -->
-        <section class="feedback-section">
-            <h3>Client Feedback and Custom Orders</h3>
-             <form action="submit-feedback.php" method="POST" class="feedback-form">
-             <label for="name">Name:</label>
-            <input type="text" id="name" name="name" required>
-
-             <label for="email">Email:</label>
-                <input type="email" id="email" name="email" required>
-
-                <label for="message">Message / Custom Order Details:</label>
-            <textarea id="message" name="message" rows="4" required></textarea>
-
-            <button type="submit" class="submit-button">Submit</button>
-            </form>
-        </section>
-
 
         <footer>
             <div class="footer-container">
-                <!-- Newsletter Subscription -->
-                <div class="footer-section newsletter">
-                    <h3>Subscribe to Our Newsletter</h3>
-                    <p>Stay updated with our latest books, offers, and events!</p>
-                    <form class="newsletter-form">
-                        <input type="email" placeholder="Enter your email" required>
-                        <button type="submit">Subscribe</button>
-                    </form>
-                </div>
-        
-                <!-- Navigation Links -->
-                <div class="footer-section footer-nav">
-                    <h3>Quick Links</h3>
-                    <ul>
-                        <li><a href="index.html">Home</a></li>
-                        <li><a href="about.html">About Us</a></li>
-                        <li><a href="gallery.html">Gallery</a></li>
-                        <li><a href="testimonials.html">Testimonials</a></li>
-                    </ul>
-                </div>
-        
-                <!-- Social Media Links -->
-                <div class="footer-section social-media">
-                    <h3>Follow Us</h3>
-                    <div class="social-icons">
-                        <a href="#" target="_blank"><img src="images/facebooklogo.png" alt="Facebook"></a>
-                        <a href="#" target="_blank"><img src="images/twitterlogo.png" alt="Twitter"></a>
-                        <a href="#" target="_blank"><img src="images/instagramlogo.png" alt="Instagram"></a>
-                    </div>
-                </div>
+              <div class="footer-table-wrapper">
+                <table class="footer-section footer-nav">
+                  <thead>
+                    <tr>
+                      <th colspan="3">Quick Links</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td><a href="index.html">Resume</a></td>
+                      <td><a href="about.html">Cover letter</a></td>
+                      <td><a href="gallery.html">Career goals</a></td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
             </div>
-        </footer>
+          </footer>
+       
         <script src="script.js"></script>
     </main>
 </body>

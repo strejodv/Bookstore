@@ -102,8 +102,8 @@ header {
 }
 
 .hero-text h2 {
-    font-size: 2rem;
-    margin-bottom: 15px;
+    font-size: 2em;
+    margin-bottom: 0.9375em;
     color: #2e2e4e;
 }
 
@@ -266,137 +266,7 @@ header {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-/* End of CSS for Resume page */
-
-.gallery-item {
-    width: 200px;
-    height: 300px;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    overflow: hidden;
-}
-
-.gallery-image {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 8px;
-}
-
-.category-name {
-    margin-top: 10px;
-    font-size: 1rem;
-    font-weight: bold;
-    color: #333;
-}
-
-/* BEST SELLER SECTION */
-.best-sellers-section {
-    padding: 50px 30px;
-    background-color: #ffffff;
-    text-align: center;
-}
-
-.best-sellers-header {
-    font-size: 2rem;
-    font-weight: bold;
-    margin-bottom: 30px;
-    color: rgb(46, 46, 46);
-}
-
-.best-sellers-container {
-    display: flex;
-    justify-content: center;
-    gap: 150px;
-    flex-wrap: wrap;
-}
-
-.best-sellers-item {
-    width: 200px;
-    text-align: center;
-}
-
-.best-sellers-image {
-    width: 100%;
-    height: 300px;
-    object-fit: cover;
-    border-radius: 8px;
-}
-
-.book-name {
-    margin-top: 10px;
-    font-size: 1rem;
-    font-weight: bold;
-    color: #333;
-}
-
-/* BYOD SECTION */
-.byod-section {
-    padding: 150px 120px;
-    background-color: #f4f4f4;
-    text-align: center;
-}
-
-.byod-header {
-    font-size: 2.5rem;
-    font-weight: bold;
-    color: rgb(46, 46, 46);
-    font-family: 'Calibri', sans-serif;
-}
-
-.promo-secondp {
-    font-size: 0.8rem;
-}
-
-/* PROMO SECTION */
-.promo-section {
-    padding: 50px 30px;
-    text-align: center;
-}
-
-.promo-container {
-    display: flex;
-    justify-content: center;
-    gap: 50px;
-    flex-wrap: wrap;
-}
-
-.promo-item {
-    text-align: center;
-    width: 500px;
-}
-
-.promo-image {
-    width: 100%;
-    height: 300px;
-    object-fit: cover;
-    border-radius: 10px;
-}
-
-.promo-header {
-    font-size: 1.5rem;
-    font-weight: bold;
-    color: rgb(46, 46, 46);
-    margin-top: 15px;
-    font-family: 'Calibri', sans-serif;
-}
-
-/* FOOTER */
+/* This is the CSS for the footer */
 footer {
     background-color: #2e4057;
     color: white;
@@ -407,266 +277,53 @@ footer {
 .footer-container {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
     max-width: 1200px;
     margin: auto;
     gap: 30px;
 }
 
-.footer-section {
-    flex: 1;
-    min-width: 250px;
+.footer-table-wrapper {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: #2e4057;
 }
 
-.footer-section h3 {
+.footer-nav {
+    color: white;
+    text-align: center;
+}
+
+.footer-nav th {
     font-size: 1.5rem;
-    margin-bottom: 15px;
+    padding-bottom: 15px;
 }
 
-.footer-section ul {
-    list-style: none;
-    padding: 0;
+.footer-nav td {
+    padding: 10px 20px; 
 }
 
-.footer-section ul li {
-    margin-bottom: 10px;
-}
-
-.footer-section ul li a {
+.footer-nav a {
     color: white;
     text-decoration: none;
+    font-size: 1rem;
 }
 
-.footer-section ul li a:hover {
+.footer-nav a:hover {
     text-decoration: underline;
 }
 
-/* NEWSLETTER FORM */
-.newsletter-form input {
-    width: 70%;
-    padding: 10px;
-    border: none;
-    border-radius: 5px;
-    margin-bottom: 10px;
+/* End of CSS for Resume page */
+
+/* Beginning of the CSS for the Cover page */
+
+.highlighted {
+    color: rgba(11, 57, 135, 0.868);
+    font-size: 1.1em;
+
 }
 
-.newsletter-form button {
-    background-color: #ee583f;
-    color: white;
-    margin-top: 5px;
-    padding: 10px 15px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-.newsletter-form button:hover {
-    background-color: white;
-    color: #ee583f;
-}
-
-/* SOCIAL MEDIA ICONS */
-.social-icons {
-    display: flex;
-    justify-content: center;
-    gap: 15px;
-}
-
-.social-icons a {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    width: 40px;
-    height: 40px;
-    background-color: white;
-    border-radius: 50%;
-}
-
-.social-icons img {
-    width: 24px;
-    height: 24px;
-    object-fit: contain;
-    transition: transform 0.2s ease-in-out;
-}
-
-.social-icons img:hover {
-    transform: scale(1.1);
-}
-
-/* GALLERY SECTION */
-.gallery {
-    padding: 50px 30px;
-    background-color: #f4f4f4;
-    text-align: center;
-}
-
-.gallery-row {
-    display: flex;
-    justify-content: center;
-    gap: 30px;
-    margin-bottom: 40px;
-}
-
-.product {
-    width: 250px;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-    background-color: white;
-    border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    overflow: hidden;
-    padding: 20px;
-    transition: transform 0.3s ease;
-}
-
-.product:hover {
-    transform: translateY(-5px);
-}
-
-.product-image {
-    width: 100%;
-    height: 250px;
-    object-fit: cover;
-    border-radius: 8px;
-}
-
-.product-title {
-    margin-top: 15px;
-    font-size: 1.2rem;
-    font-weight: bold;
-    color: #333;
-}
-
-.product-price {
-    margin-top: 10px;
-    font-size: 1.1rem;
-    color: #2e4057;
-}
-
-/* Add to Cart Button Styles */
-.add-to-cart-btn {
-    background-color: #ff5722; /* A vibrant orange to stand out */
-    color: #fff;
-    font-family: 'Comfortaa', sans-serif;
-    font-size: 1rem;
-    padding: 0.8rem 1.5rem;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s ease, transform 0.3s ease;
-    margin-top: 10px;
-    width: 100%;
-}
-
-/* Hover Effect */
-.add-to-cart-btn:hover {
-    background-color: #e64a19; /* Darker shade of orange */
-    transform: translateY(-2px); /* Slight lift effect */
-}
-
-/* Focus Effect */
-.add-to-cart-btn:focus {
-    outline: none;
-    box-shadow: 0 0 0 2px rgba(255, 87, 34, 0.5);
-}
-
-
-/* For responsive design */
-@media (max-width: 768px) {
-    .gallery-row {
-        flex-direction: column;
-        gap: 20px;
-    }
-}
-
-/* ABOUT US PAGE STYLES */
-
-/* BUSINESS HOURS SECTION */
-.business-hours-section {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 50px 30px;
-    gap: 30px;
-    max-width: 1200px;
-    margin: 50px auto;
-}
-
-.business-hours .hero-image {
-    width: 100%; /* Increase the width */
-    height: auto; /* Keep the aspect ratio */
-    border-radius: 10px;
-}
-
-.business-hours h3 {
-    font-size: 2rem;
-    color: #2e2e4e;
-    margin-bottom: 20px;
-}
-
-.business-hours ul {
-    list-style: none;
-    padding: 0;
-    font-size: 1.2rem;
-    color: #393939;
-}
-
-.business-hours ul li {
-    margin-bottom: 10px;
-}
-
-/* FEEDBACK FORM SECTION */
-.feedback-section {
-    padding: 50px 30px;
-    background-color: #f9f9f9;
-    text-align: center;
-}
-
-.feedback-section h3 {
-    font-size: 2rem;
-    margin-bottom: 30px;
-    color: #333;
-}
-
-.feedback-form {
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-    max-width: 600px;
-    margin: 0 auto;
-}
-
-.feedback-form label {
-    font-size: 1.1rem;
-    color: #333;
-}
-
-.feedback-form input, 
-.feedback-form textarea {
-    padding: 10px;
-    font-size: 1rem;
-    border-radius: 5px;
-    border: 1px solid #ccc;
-}
-
-.feedback-form button {
-    padding: 10px 20px;
-    background-color: #ee583f;
-    color: white;
-    font-size: 1.1rem;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    margin-top: 20px;
-}
-
-.feedback-form button:hover {
-    background-color: white;
-    color: #ee583f;
-}
 
 /* TESTIMONIALS SECTION STYLES */
 .testimonials-section {
