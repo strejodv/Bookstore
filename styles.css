@@ -23,22 +23,6 @@ header {
     padding: 10px 30px;
 }
 
-/* THE LOGO CSS AREA NEEDS TO BE ERASED BEFORE DELIVERING SINCE THE WESBITE STRUCTURE CHANGED AS IT IS NO LONGER NEEDED */
-.logo-area {
-    display: flex;
-    align-items: center;
-}
-
-.logo {
-    width: 50px;
-    height: auto;
-    margin-right: 10px;
-}
-
-.website-title {
-    font-size: 1.2rem;
-    color: white;
-}
 
 /* NAVIGATION LINKS */
 .nav-links {
@@ -59,30 +43,6 @@ header {
 
 .nav-links a:hover {
     text-decoration: underline;
-}
-
-/* SEARCH BAR AND CART */
-.nav-icons {
-    display: flex;
-    align-items: center;
-    gap: 15px;
-}
-
-.search-bar {
-    padding: 5px;
-    border: none;
-    border-radius: 10px;
-}
-
-.cart-icon {
-    width: 30px;
-    height: auto;
-    cursor: pointer;
-}
-
-.cart-link {
-    text-decoration: none;
-    color: inherit;
 }
 
 /* CSS for the HERO SECTION */
@@ -314,7 +274,6 @@ footer {
     text-decoration: underline;
 }
 
-/* End of CSS for Resume page */
 
 /* Beginning of the CSS for the Cover page */
 
@@ -325,96 +284,72 @@ footer {
 }
 
 
-/* TESTIMONIALS SECTION STYLES */
-.testimonials-section {
-    padding: 50px 30px;
-    background-color: #f9f9f9;
-    text-align: center;
-}
+/* Beginning of the CSS for the career goal page on the portfolio */
 
-.testimonial-container {
+.video-wrapper {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    gap: 20px;
-    max-width: 1200px;
-    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    height: 60vh; 
+    margin-bottom: 150px;
 }
 
-.testimonial {
-    background-color: white;
-    padding: 30px;
+.hero-video {
+    width: 60%;
+    height: auto;
     border-radius: 10px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    width: calc(33.333% - 20px); /* Three testimonials in a row */
+}
+
+.contact-section {
+    padding: 60px 20px;
     text-align: center;
-    transition: transform 0.3s ease-in-out;
+    background-color: #f5f5f5;
+    font-family: 'Carlito', sans-serif;
 }
 
-.testimonial:hover {
-    transform: translateY(-5px);
-}
-
-.testimonial p {
-    font-size: 1.1rem;
-    color: #555;
-    margin-bottom: 15px;
-}
-
-.testimonial h4 {
-    font-size: 1.3rem;
+.contact-section h2 {
+    font-size: 2em;
+    margin-bottom: 30px;
     color: #2e4057;
-    margin-bottom: 5px;
 }
 
-.testimonial p:last-child {
-    font-size: 1rem;
-    color: #777;
-    font-style: italic;
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
 }
 
-/* RESPONSIVE DESIGN */
-@media (max-width: 768px) {
-    .testimonial {
-        width: calc(50% - 20px); /* Two testimonials in a row */
-    }
+.contact-form label {
+    text-align: left;
+    font-weight: bold;
+    color: #2e4057;
 }
 
-@media (max-width: 480px) {
-    .testimonial {
-        width: 100%; /* One testimonial per row on small screens */
-    }
-}
-
-/* Basic Styles for Modal */
-.cart-modal {
-    position: fixed;
-    top: 0;
-    left: 0;
+.contact-form input,
+.contact-form textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: 'Comfortaa', sans-serif;
+    font-size: 1em;
     width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
-    display: none; /* Initially hidden */
-    z-index: 1000;
+    box-sizing: border-box;
 }
 
-.cart-modal-content {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: white;
-    padding: 20px;
-    border-radius: 10px;
-    width: 400px;
-    max-height: 80%;
-    overflow-y: auto;
+.contact-form button {
+    padding: 12px;
+    background-color: #2e4057;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
 }
 
-.modal-overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+.contact-form button:hover {
+    background-color: #3a4d6d;
 }
