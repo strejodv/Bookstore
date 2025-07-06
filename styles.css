@@ -45,6 +45,10 @@ header {
     text-decoration: underline;
 }
 
+.date-time {
+    font-size: 13px;
+}
+
 /* CSS for the HERO SECTION */
 .hero-section {
     display: flex;
@@ -328,6 +332,7 @@ footer {
 }
 
 .contact-form input,
+.contact-form select,
 .contact-form textarea {
     padding: 10px;
     border: 1px solid #ccc;
@@ -336,6 +341,19 @@ footer {
     font-size: 1em;
     width: 100%;
     box-sizing: border-box;
+}
+
+.radio-group {
+    display: flex;
+    gap: 20px;
+    justify-content: flex-start;
+}
+
+.radio-group label {
+    font-weight: normal;
+    display: flex;
+    align-items: center;
+    gap: 5px;
 }
 
 .contact-form button {

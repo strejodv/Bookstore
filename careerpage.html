@@ -61,12 +61,36 @@
         </section>
         <section class="contact-section">
             <h2>Contact Me</h2>
-            <form class="contact-form" action="#" method="post">
-                <label for="name">Name:</label>
-                <input type="text" id="name" name="name" required>
+            <form class="contact-form" action="https://wp.zybooks.com/form-viewer.php" method="post">
+                <label for="first-name">First Name:</label>
+                <input type="text" id="first-name" name="first-name" required>
         
-                <label for="email">Email:</label>
+                <label for="last-name">Last Name:</label>
+                <input type="text" id="last-name" name="last-name" required>
+        
+                <label for="company">Company Name:</label>
+                <input type="text" id="company" name="company">
+        
+                <label for="email">Email Address:</label>
                 <input type="email" id="email" name="email" required>
+        
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone">
+        
+                <label for="contact-time">Best Contact Time:</label>
+                <div class="radio-group">
+                    <label><input type="radio" name="contact-time" value="am" required> A.M.</label>
+                    <label><input type="radio" name="contact-time" value="pm"> P.M.</label>
+                    <label><input type="radio" name="contact-time" value="anytime"> Anytime</label>
+                </div>
+        
+                <label for="contact-method">Preferred Contact Method:</label>
+                <select id="contact-method" name="contact-method" required>
+                    <option value="">-- Please choose an option --</option>
+                    <option value="phone">Phone</option>
+                    <option value="email">Email</option>
+                    <option value="text">Text</option>
+                </select>
         
                 <label for="message">Message:</label>
                 <textarea id="message" name="message" rows="5" required></textarea>
@@ -74,6 +98,7 @@
                 <button type="submit">Send</button>
             </form>
         </section>
+        
 
     </main>
     <footer>
