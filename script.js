@@ -12,4 +12,6 @@ function todaysDateTime() {
 // DOM //
 document.addEventListener("DOMContentLoaded", todaysDateTime);
 
+console.log("Welcome to Stefano's Portfolio!");
+
  

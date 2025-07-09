@@ -235,6 +235,19 @@ article h3 {
     color: #2e2e4e;
 }
 
+/* ID selector for the cover letter section */
+#cover-letter {
+    background-color: #f9f9f9;
+    border: 2px solid #e0e0e0;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Pseudo-class selector for nav links */
+.nav-links a:focus {
+    outline: 2px dashed #ffa500;
+    background-color: #ffffff30;
+}
 
 
 /* This is the CSS for the footer */
