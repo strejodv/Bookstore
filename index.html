@@ -12,8 +12,6 @@
 <body>
     <header>
         <div class="nav-container">
-
-            <!-- This is the html for the navigation bar -->
             <nav>
                 <ul class="nav-links">
                     <li><a href="index.html">Resume</a></li>
@@ -26,17 +24,17 @@
 
     <main> 
         <section class="hero-section">
-                    <div class="hero-text">
+            <div class="hero-text">
                 <h2>My name is Stefano Trejo and this is my portfolio!</h2>
-                <p>I'm a <span style="color: rgb(7, 46, 110);"><strong>software engineer</strong></span> student with an educational background in design. In case you want to know a little more about me, you can find
-                    my resume below.</p>
+                <p>I'm a <span style="color: rgb(7, 46, 110);"><strong>software engineer</strong></span> student with an educational background in design. In case you want to know a little more about me, you can find my resume below.</p>
             </div>
             <div class="hero-image">
                 <img src="images/heroimage1.png" alt="Books on a shelf" class="hero-img">
             </div>
         </section>
 
-        <section class="resume-section">
+        <!-- swapped one of the section tags for an article tag in order to fullfill assignment requirement -->
+        <article class="resume-section">
             <h2 class="resume-header">Resume <hr></h2>
            
             <div class="resume-container">
@@ -44,10 +42,7 @@
                 <p>stides11@gmail.com | 408-774-2467 | San Francisco Bay Area</p>      
             </div>
             <div class="resume-paragraph">
-                <p>I'm a <strong>Software Engineering</strong> student at WGU currently looking for an internship. I've always felt at home around
-                    computers and technology. Right now, I work in support, helping people troubleshoot issues with home
-                    network modems and mobile services. I also have an associate degree in <br>Graphic and Interactive Design,
-                    along with UX/UI experience from a previous internship.</p> 
+                <p>I'm a <strong>Software Engineering</strong> student at WGU currently looking for an internship. I've always felt at home around computers and technology. Right now, I work in support, helping people troubleshoot issues with home network modems and mobile services. I also have an associate degree in <br>Graphic and Interactive Design, along with UX/UI experience from a previous internship.</p> 
             </div>
             <div class="education-header">
                 <h3>Education</h3>
@@ -58,14 +53,13 @@
             </div>
             <div class="education-informationtwo">
                 <p>BS. Degree , Software Engineering</p>
-                
                 <p>12/2025</p>
             </div>
             <div class="skills-header">
                 <h3>Skills</h3>
             </div>
             <div class="skills-paragraph">
-                <p>HTML / CSS, JavaScript, React, Python, Java, SQL, Git / Github, Figma, Design Process Understanding</p>
+                <em><p>HTML / CSS, JavaScript, React, Python, Java, SQL, Git / Github, Figma, Design Process Understanding</p></em>
             </div>
             <div class="experience-header">
                 <h3>Experience</h3>
@@ -81,12 +75,10 @@
             <div class="experience-paragraph">
                 <ul>
                     <li>
-                        Used past user surveys performed by the company to guide design decisions and improve the UI without
-                        access to new research or a full UX team.
+                        Used past user surveys performed by the company to guide design decisions and improve the UI without access to new research or a full UX team.
                     </li>
                     <li>
-                        Made Figma solutions (design iterations) and worked with the engineering team to deliver usable
-                        solutions, all while developing my skills on the job.
+                        Made Figma solutions (design iterations) and worked with the engineering team to deliver usable solutions, all while developing my skills on the job.
                     </li>
                 </ul>
             </div>
@@ -98,11 +90,10 @@
                 <p>05/2025</p>
             </div>
             <div class="project-paragraph">
-                <p>During my studies, I've built some web applications as projects, things like a weather app, a chatbot, and a
-                    quote generator. I used JavaScript, React, CSS, and HTML to bring them to life and practice what I was learning
-                    along the way.</p>
+                <p>During my studies, I've built some web applications as projects, things like a weather app, a chatbot, and a quote generator. I used JavaScript, React, CSS, and HTML to bring them to life and practice what I was learning along the way.</p>
             </div>
-        </section>
+        </article>
+
     </main>
 
     <footer>
@@ -127,10 +118,8 @@
             <p id="current-date-time">Time</p>
         </div>
         </div>
-      </footer>
-    
+    </footer>
 
     <script src="script.js"></script> 
 </body>
-
 </html>
